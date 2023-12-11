@@ -1,0 +1,9 @@
+pwede ba mag tap out kahit lalabas lang?
+
+no since real time ang tracking ng ng mga room
+
+then mag tatap out lang sya pag mag chechekout
+
+automatic maglolock yung door after mag tap in sa pinto
+
+to target the customer for in out insertion, use the id number of card
