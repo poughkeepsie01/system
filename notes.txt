@@ -7,3 +7,59 @@ then mag tatap out lang sya pag mag chechekout
 automatic maglolock yung door after mag tap in sa pinto
 
 to target the customer for in out insertion, use the id number of card
+
+can say that the card is a perks when choosing the hotel
+
+Standard Double Room:
+
+Occupancy: 2 adults
+Bedding: One queen-sized bed or two twin beds
+Amenities: Ensuite bathroom, TV, air conditioning, basic toiletries, desk, and chair.
+Family Room:
+
+Occupancy: 4 people (2 adults and 2 children)
+Bedding: One queen-sized bed and a sofa bed or two double beds
+Amenities: Ensuite bathroom, TV, air conditioning, basic toiletries, desk, and chair. Some may have a small seating area.
+Executive Suite:
+
+Occupancy: 2 adults
+Bedding: King-sized bed
+Amenities: Larger room with a separate living area, ensuite bathroom, TV in both the bedroom and living area, air conditioning, basic toiletries, desk, and chair.
+Accessible Room:
+
+Occupancy: 2 adults
+Bedding: One queen-sized bed
+Amenities: Designed for guests with mobility challenges, may include wider doorways, accessible bathroom with grab bars, and other features for accessibility.
+Twin Room:
+
+Occupancy: 2 adults
+Bedding: Two twin beds
+Amenities: Ensuite bathroom, TV, air conditioning, basic toiletries, desk, and chair.
+Junior Suite:
+
+Occupancy: 2 adults
+Bedding: King-sized bed
+Amenities: Larger room with a sitting area, ensuite bathroom, TV, air conditioning, basic toiletries, desk, and chair.
+
+
+Standard Double Room:
+
+Hourly Rate: $20 - $40 per hour
+Family Room:
+
+Hourly Rate: $30 - $50 per hour
+Executive Suite:
+
+Hourly Rate: $40 - $60 per hour
+Accessible Room:
+
+Hourly Rate: $25 - $45 per hour
+Twin Room:
+
+Hourly Rate: $20 - $40 per hour
+Junior Suite:
+
+Hourly Rate: $35 - $55 per hour
+
+
+The reservation fee is 50% of time plan selected 
