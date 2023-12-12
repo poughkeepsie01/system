@@ -1,12 +1,14 @@
 pwede ba mag tap out kahit lalabas lang?
 
-no since real time ang tracking ng ng mga room
+ye since required pa rin mag tap out sa front desk -should just choose an option of check in or check out
 
-then mag tatap out lang sya pag mag chechekout
+and iba dadaanan sa pag exit 
 
 automatic maglolock yung door after mag tap in sa pinto
 
 to target the customer for in out insertion, use the id number of card
+
+mas maganda at madali pag fix time 
 
 can say that the card is a perks when choosing the hotel
 
@@ -59,7 +61,7 @@ Twin Room:
 Hourly Rate: $20 - $40 per hour
 Junior Suite:
 
-Hourly Rate: $35 - $55 per hour
+Hourly Rate: $35 - $55 per hour	
 
 
 The reservation fee is 50% of time plan selected 
