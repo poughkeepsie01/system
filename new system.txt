@@ -1,0 +1,26 @@
+walk in lang 
+cards is not permanent
+
+remove reservation
+mnagement or reservation only
+
+1 card 1 room
+update lang kung after ibalik yung card sa temporary card
+
+mapkita lang advance pl/sql
+
+puro walk in 
+
+show vailable then avail room 2 
+receptionist is the moidfyier of room
+
+system that monitor the room and calculation 
+time based like 3 hours = 300 and computation
+and total calculation of revenue per day
+
+with resibo
+update elang if magc check out si customer
+with logs/history 
+
+card no. = room no.
+1 card per room
