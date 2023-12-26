@@ -2,7 +2,7 @@
 create sequence customer_id_seq
 increment by 1
 start with 1
-minvalue 0
+minvalue 1
 nomaxvalue
 cache 20;
 
