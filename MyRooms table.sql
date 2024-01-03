@@ -16,25 +16,25 @@ order by customer_id asc
 insert into MyRooms(customer_id, customer_firstname,customer_lastname)
 values 
 (
-customer_id_seq.NEXTVAL,
+rooms_id_seq.NEXTVAL,
 'evrg',
 'ercgw'
 );
 
-delete from MyCustomers 
+delete from MyRooms 
 
 commit;
 
 
-alter table MyCustomers
+alter table MyRooms
 add status varchar2(10) default 'logged out'
 
-update MyCustomers
+update MyRooms
 set status = 'logged in'
 where customer_username = 'gerbal'
 
-alter table MyCustomers
+alter table MyRooms
 drop column status 
 
-delete * from MyCustomers
+delete * from MyRooms
 where customer_id > 20
