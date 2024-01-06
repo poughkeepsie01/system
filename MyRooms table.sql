@@ -1,24 +1,24 @@
 CREATE TABLE MyRooms
 (
   room_id number(10)primary key,
-  customer_id number(10),
-  price_per_hour number(10),
-  status varchar2(10)
-  
+  room_type varchar2(10),
+  customer_id number(10) default null,
+  price_per_hour number(10) default 100,
+  status varchar2(10) default 'available'
 );
 
 drop table MyRooms;
 
+DROP TABLE MyRooms CASCADE CONSTRAINTS;
+
 select * from MyRooms
-order by customer_id asc
 
-
-insert into MyRooms(customer_id, customer_firstname,customer_lastname)
+insert into MyRooms(room_id,room_type, price_per_hour)
 values 
 (
-rooms_id_seq.NEXTVAL,
-'evrg',
-'ercgw'
+1,
+'single',
+'100'
 );
 
 delete from MyRooms 

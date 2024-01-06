@@ -1,16 +1,13 @@
+/* Formatted on 1/2/2024 8:18:17 PM (QP5 v5.360) */
 CREATE TABLE MyTest
 (
- date_id number(10),
-  mydate date default sysdate
-  
+    date_id    NUMBER (10),
+    mydate     DATE DEFAULT SYSDATE
 );
 
-drop table MyTest;
+DROP TABLE MyTest;
 
-select to_char(mydate, 'MM/DD') from MyTest;
+SELECT TO_CHAR (mydate, 'MM/DD') FROM MyTest;
 
-insert into MyTest(date_id)
-values
-(
-1
-);
+INSERT INTO MyTest (date_id)
+     VALUES (1);
