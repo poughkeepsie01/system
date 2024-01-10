@@ -1,31 +1,28 @@
-/* Formatted on 1/10/2024 8:08:37 AM (QP5 v5.227.12220.39754) */
-CREATE OR REPLACE TRIGGER reg_to_transact_trig
-   AFTER UPDATE
-   ON Myrooms
-   FOR EACH ROW
-
-DECLARE
-
-   
-
-
+/* Formatted on 1/10/2024 12:59:28 PM (QP5 v5.227.12220.39754) */
+CREATE OR REPLACE PROCEDURE reg_to_transact_trig(par_room_id number)
+  IS
+   stay_time   MYCUSTOMERS.hours_of_staying%TYPE;
+   stay_price  MYROOMS.PRICE_PER_HOUR%type;
 BEGIN
-
---add conditional IF pag uupdate status ng rooms
- 
-INSERT INTO MyTransactions (transaction_id)
-        VALUES (transactions_id_seq.NEXTVAL);
-         
+   --add conditional IF pag uupdate status ng rooms
+   
+    SELECT hours_of_staying into stay_time
+        FROM mycustomers
+       WHERE Room_id = par_room_id;
+       
+    SELECT PRICE_PER_HOUR into stay_price
+        FROM MyRooms
+       WHERE Room_id = par_room_id;
 
    UPDATE MyTransactions
-      SET room_id = :NEW.room_id,
-          customer_id = :NEW.customer_id,
-          check_in_amount = 100 * hours_staying
-    WHERE  customer_id is null and room_id is null;
-    DBMS_OUTPUT.put_line ('Triggered transact');
+      SET check_in_amount = stay_price * stay_time
+    WHERE check_in_amount IS NULL;
+
+   DBMS_OUTPUT.put_line ('Triggered transact2');
+    DBMS_OUTPUT.put_line (par_room_id);
 --    DBMS_OUTPUT.put_line (:NEW.customer_id || :new.room_id);
 
-
+commit;
 END;
 /
 

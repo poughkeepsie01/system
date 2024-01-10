@@ -37,8 +37,9 @@ FROM  MyTransactions
 
 TRUNCATE TABLE MyTransactions DROP STORAGE
 
-delete from  MyTransactions
+delete from MyTransactions
 
+commit
 
 order by customer_id;
 --wlang 0 sa contact number kasi NUMBER 005 = 5

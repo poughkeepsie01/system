@@ -105,9 +105,8 @@ BEGIN
                    par_rooms,
                    par_hours_of_staying,
                    par_confiscated_items);
-
-      
       COMMIT;
+      reg_to_transact_trig(par_rooms);
    END IF;
 EXCEPTION
    WHEN occupied_room
