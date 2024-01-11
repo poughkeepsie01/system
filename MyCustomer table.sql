@@ -14,12 +14,14 @@ CREATE TABLE MyCustomers
 
 --when they checked out, the room will be null, and if the count of room is = 10 then the error is hotel is full
 drop table MyCustomers;
-drop sequence customer_id_seq;
+
+drop sequence customer_id_seq
 
 DROP TABLE mycustomers CASCADE CONSTRAINTS
 
 select * from MyCustomers
-order by room_id desc
+order by room_id 
+
 
 truncate table MyCustomers CASCADE CONSTRAINTS
 
