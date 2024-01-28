@@ -12,31 +12,56 @@ mas maganda at madali pag fix time
 
 can say that the card is a perks when choosing the hotel
 
+pwede 2 or more rooms sa isang account?
+2 paths:
+1st pwede kasi gusto nya naman yun
+2nd di pwede unless may 2nd person na bibigyan ng acc and card
+
+WHEN LOGGED OUT THE USER CANNOT DO TRANSACTION
+
+pwede ba multiple account pero iisang tao??
+
+
+what if di bumalik pero nagbayad na 
+in first 12 hours contact lang si user either sumagot or hindi 
+if wala pa rin,  sa 2nd 12 hours contact ulit si user if di sumagot, an employee will inspect the room
+
 Standard Double Room:
 
 Occupancy: 2 adults
 Bedding: One queen-sized bed or two twin beds
 Amenities: Ensuite bathroom, TV, air conditioning, basic toiletries, desk, and chair.
+
+
 Family Room:
 
 Occupancy: 4 people (2 adults and 2 children)
 Bedding: One queen-sized bed and a sofa bed or two double beds
 Amenities: Ensuite bathroom, TV, air conditioning, basic toiletries, desk, and chair. Some may have a small seating area.
+
+
 Executive Suite:
 
 Occupancy: 2 adults
 Bedding: King-sized bed
 Amenities: Larger room with a separate living area, ensuite bathroom, TV in both the bedroom and living area, air conditioning, basic toiletries, desk, and chair.
+
+
+
 Accessible Room:
 
 Occupancy: 2 adults
 Bedding: One queen-sized bed
 Amenities: Designed for guests with mobility challenges, may include wider doorways, accessible bathroom with grab bars, and other features for accessibility.
+
+
 Twin Room:
 
 Occupancy: 2 adults
 Bedding: Two twin beds
 Amenities: Ensuite bathroom, TV, air conditioning, basic toiletries, desk, and chair.
+
+
 Junior Suite:
 
 Occupancy: 2 adults
@@ -45,22 +70,21 @@ Amenities: Larger room with a sitting area, ensuite bathroom, TV, air conditioni
 
 
 Standard Double Room:
-
 Hourly Rate: $20 - $40 per hour
+
 Family Room:
-
 Hourly Rate: $30 - $50 per hour
+
 Executive Suite:
-
 Hourly Rate: $40 - $60 per hour
+
 Accessible Room:
-
 Hourly Rate: $25 - $45 per hour
+
 Twin Room:
-
 Hourly Rate: $20 - $40 per hour
-Junior Suite:
 
+Junior Suite:
 Hourly Rate: $35 - $55 per hour	
 
 

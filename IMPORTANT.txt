@@ -1,0 +1,1 @@
+'' add single quote in userInput var, ex: '&input_username'

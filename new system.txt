@@ -24,3 +24,12 @@ with logs/history
 
 card no. = room no.
 1 card per room
+
+room name, occupied or not status
+
+room 1 = card 1 
+input 
+
+trigger with history table
+by each day and time of occupy in 1 room
+

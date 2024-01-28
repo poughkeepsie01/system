@@ -17,3 +17,5 @@ nomaxvalue
 cache 20;
 
 drop sequence rooms_id_seq
+
+commit

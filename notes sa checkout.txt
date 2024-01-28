@@ -1,0 +1,11 @@
+pag nag check out 
+compute the time difference ng check in at check out then add to total_amount(my transactions)
+
+path 1: loob ng motel and nag check out on time
+ normal transanction lang 
+
+Path 2: nasa loob ng motel pero overtime
+may staff na lalapit sa kanila then mag papaalala na ot sila, then kapag aalis na within 5 min after ng time nila
+
+path 3: nasa labas and out of time na 
+confiscate ng items nila, (if may naka huli, pwede thru gcash/bank transfer nalang pero 3 hours minimum pa rin and update nalang ng time_of_staying sa mycustomers, update ng time and payment sa room and sa Mytransactions) 

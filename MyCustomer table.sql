@@ -6,26 +6,26 @@ CREATE TABLE MyCustomers
   customer_middlename varchar2(50) default ' ',
   contact_number varchar(20), 
   room_id number(2) default 0,
-  hours_of_staying number(5),
+  hours_of_staying varchar2(20),
   confiscated_items varchar2(20),
   registration_date date default sysdate
 --  foreign key(room_id) references MyRooms(room_id)
 )
 
 --when they checked out, the room will be null, and if the count of room is = 10 then the error is hotel is full
-drop table MyCustomers;
-
-drop sequence customer_id_seq
-
-DROP TABLE mycustomers CASCADE CONSTRAINTS
+--drop table MyCustomers
+--
+--drop sequence customer_id_seq
+--
+--DROP TABLE mycustomers CASCADE CONSTRAINTS
 
 select * from MyCustomers
-order by room_id 
+order by customer_id desc
 
 
-truncate table MyCustomers CASCADE CONSTRAINTS
-
-delete from MyCustomers
+--truncate table MyCustomers CASCADE CONSTRAINTS
+--
+--delete from MyCustomers
 
 order by customer_id ;
 --wlang 0 sa contact number kasi NUMBER 005 = 5
@@ -43,6 +43,10 @@ delete from MyCustomers
 commit;
 
 
+ALTER TABLE MyCustomers
+MODIFY hours_of_staying varchar2(20)
+
+
 alter table MyCustomers
 add status varchar2(10) default 'logged out'
 
@@ -58,3 +62,6 @@ where customer_id > 20
 
 select * from MyCustomers
 where length(contact_number) = 10;
+
+
+MyCHECKOUT

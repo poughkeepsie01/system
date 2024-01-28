@@ -21,7 +21,6 @@ BEGIN
    UPDATE MyTransactions
       SET room_id = :NEW.room_id,
           customer_id = :NEW.customer_id
---         
     WHERE customer_id IS NULL AND room_id IS NULL;
 
    DBMS_OUTPUT.put_line ('Triggered transact');
